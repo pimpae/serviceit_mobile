@@ -542,3 +542,37 @@ fieldset.xborder legend {
 .jobFinish .modal-body { 
   padding: 0rem;
 }
+
+.equ{
+  padding-left: 20px;
+}
+.equ h5 span{
+   font-weight: 400;
+}
+
+
+.img-ul{
+  padding-left: 0;
+  list-style: none;
+}
+.img-ul li{
+  padding-left: 0;
+  list-style: none;
+  width: 30%;
+  display: inline-block;
+}
+.img-ul li div{
+  width: 100%;
+  height: 75px;
+  background-repeat: no-repeat !important;
+  background-size: auto 100% !important;
+  border: 4px solid #707070;
+  border-radius: 4px;
+  background-position: center !important;
+  margin: auto;
+  display: block;
+}
+
+#search h5  {  
+  font-size: 16px;
+}
