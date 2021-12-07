@@ -197,7 +197,7 @@
  
 
     <div class="modal jobFinish fade" id="่jobFinish">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-dialog modal-lg "> <!-- modal-dialog-centered -->
             <div class="modal-content"> 
                 <div class="modal-header">
                     <h4 class="modal-title"><strong>ผลการซ่อม</strong></h4>
@@ -223,27 +223,13 @@
                                 
                             </div>
 
-                            <div class="col-xl-3 col-12 p-0">
+                            <!-- <div class="col-xl-3 col-12 p-0">
                                 <button type="button" class="btn btn-danger btn-block" id="checkWarranty">ตรวจสอบประกัน</button>
                             </div>
-                            <br>
-                            <div class="col-12 warranty1">
-                                <div class="form-group row b-0"> 
-                                    <label class="col-lg-4"><strong>อุปกรณ์อยู่ในประกัน</strong></label>  
-                                </div>
-                                <div class="form-group row b-0"> 
-                                    <label class="col-lg-4"><strong>ชื่อศูนย์บริการรับประกัน</strong></label> Samsung Thailand
-                                </div>
-                                <div class="form-group row b-0"> 
-                                    <label class="col-lg-4"><strong>วันที่สิ้นสุดการประกัน</strong></label> 10/11/2566
-                                </div>
-                            </div>
+                            <br> -->
+                            
 
-                            <div class="col-12 warranty1">
-                                <div class="form-group row b-0"> 
-                                    <label class="col-lg-4 text-danger"><strong>อุปกรณ์ไม่อยู่ในประกัน</strong></label>   
-                                </div>
-                            </div>
+                            
 
                             <hr>
 
@@ -314,6 +300,22 @@
 
  
                                 <div class="radio2_1">
+                                    <div class="col-12  ">
+                                        <div class="form-group row b-0"> 
+                                            <label class="col-lg-4 col"><strong>อุปกรณ์อยู่ในประกัน</strong></label>  
+                                        </div>
+                                        <div class="form-group row b-0"> 
+                                            <label class="col-lg-4 col"><strong>ชื่อศูนย์บริการ :</strong></label> Samsung Thailand
+                                        </div>
+                                        <div class="form-group row b-0"> 
+                                            <label class="col-lg-4 col"><strong>ติดต่อ :</strong></label> 02-340-2003
+                                        </div>
+                                        <div class="form-group row b-0"> 
+                                            <label class="col-lg-4 col"><strong>วันที่สิ้นสุดประกัน :</strong></label> 10/11/2566
+                                        </div>
+
+                                        <hr>
+                                    </div>
                                     <div class="form-group row "> 
                                         <div class="col-lg-6">     
                                             <h5>วันที่สิ้นสุดการประกัน</h5>   
@@ -361,17 +363,35 @@
                                 </div>
 
                                 <div class="radio2_2">
+                                    <div class="col-12  ">
+                                        <div class="form-group row b-0"> 
+                                            <label class="col-lg-4 col text-danger"><strong>อุปกรณ์ไม่อยู่ในประกัน</strong></label>   
+                                        </div>
+
+                                        <div class="form-group row b-0"> 
+                                            <label class="col-lg-4 col"><strong>วันที่สิ้นสุดการประกัน</strong></label> <span class="text-danger">10/11/2563</span>
+                                        </div>
+
+                                        <hr>
+                                    </div>
+
                                     <div class="form-group row">  
-                                        <div class="col-lg-3 col-6">         
+                                        <div class="col-lg-3 col-12">         
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input" type="radio" name="condition" id="condition1" value="1">
                                                 <label class="form-check-label" for="condition1">เบิกอุปกรณ์ทดแทน</label>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-6">
+                                        <div class="col-lg-3 col-12">
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input" type="radio" name="condition" id="condition2" value="2">
                                                 <label class="form-check-label" for="condition2">เบิกอะไหล่ซ่อม</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-12">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="condition" id="condition3" value="3">
+                                                <label class="form-check-label" for="condition3">เบิกอุปกรณ์จากคลัง IT</label>
                                             </div>
                                         </div>
                                     </div>
@@ -387,13 +407,13 @@
 
                                             <div class="col">
                                                 <div class="form-group row">  
-                                                    <div class="col-lg-4 col-12">         
+                                                    <div class="col-lg-4 col-6">         
                                                         <div class="form-check form-check-inline">
                                                             <input class="form-check-input" type="radio" name="stock_quant" id="stock_quant1" value="1">
                                                             <label class="form-check-label" for="stock_quant1">ตรวจสอบอะไหล่ในคลังพัสดุ</label>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-4 col-12">
+                                                    <div class="col-lg-4 col-6">
                                                         <div class="form-check form-check-inline">
                                                             <input class="form-check-input" type="radio" name="stock_quant" id="stock_quant2" value="2">
                                                             <label class="form-check-label" for="stock_quant2">สร้างใบขอซื้อ</label>
@@ -413,7 +433,7 @@
                                                             </select> 
                                                         </div>
                                                         <div class="col-lg-6">
-                                                            <label class="form-check-label " for="type_inven">ประเภท</label>
+                                                            <label class="form-check-label" for="type_inven">ประเภท</label>
                                                             <select class="selectpicker" title="ประเภท" data-show-subtext="true" data-live-search="true" > 
                                                                 <option>จอภาพ</option> 
                                                                 <option>เมนบอร์ด</option>  
@@ -524,13 +544,13 @@
 
                                             <div class="col">
                                                 <div class="form-group row">  
-                                                    <div class="col-lg-4 col-12">         
+                                                    <div class="col-lg-4 col-6">         
                                                         <div class="form-check form-check-inline">
                                                             <input class="form-check-input" type="radio" name="stock_qua" id="stock_qua1" value="1">
                                                             <label class="form-check-label" for="stock_qua1">ตรวจสอบอะไหล่ในคลังพัสดุ</label>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-4 col-12">
+                                                    <div class="col-lg-4 col-6">
                                                         <div class="form-check form-check-inline">
                                                             <input class="form-check-input" type="radio" name="stock_qua" id="stock_qua2" value="2">
                                                             <label class="form-check-label" for="stock_qua2">สร้างใบขอซื้อ</label>
@@ -652,6 +672,61 @@
 
                                          
                                     </div>
+
+
+
+
+                                    <div class="radio3_3"> 
+                                        <fieldset class="xborder">
+                                            <legend>เบิกอุปกรณ์จากคลัง IT </legend>
+                                            <div class="col">
+                                                <div class="form-group row">  
+                                                    <div class="col-lg-6">
+                                                        <label class="form-check-label" for="category_type">หมวดหมู่</label>
+                                                        <select class="selectpicker" title="หมวดหมู่" data-show-subtext="true" data-live-search="true" > 
+                                                            <option value="1">Server</option> 
+                                                            <option value="2">Software License</option> 
+                                                            <option value="3">อุปกรณ์</option>   
+                                                            <option value="3">รายการอะไหล่</option>   
+                                                            <option value="3">วัสดุสำนักงาน</option>  
+                                                        </select> 
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <label class="form-check-label" for="type_inven">ชื่ออุปกรณ์</label>
+                                                        <select class="selectpicker" title="ประเภท" data-show-subtext="true" data-live-search="true" > 
+                                                            <option>จอภาพ</option> 
+                                                            <option>เมนบอร์ด</option>  
+                                                            <option>แรม</option> 
+                                                            <option>ฮาร์ดดิสก์</option> 
+                                                        </select> 
+                                                    </div> 
+                                                </div>
+
+                                                <div class="form-group row">
+                                                    <div class="col-lg-6">
+                                                        <label for="personnel_id">จำนวนเบิก</label>       
+                                                        <input type="text" class="form-control" id="" name="">  
+                                                    </div>  
+                                                    <div class="col-lg-6">      
+                                                        <label for="personnel_id">จำนวนคงเหลือ</label>   
+                                                        <input type="text" class="form-control" id="" name="" value="10" disabled> 
+                                                    </div>  
+                                                </div>
+
+                                                <div class="form-group row ">  
+                                                    <div class="col-12">
+                                                        <h5>หมายเหตุในการเบิก</h5>
+                                                        <textarea class="form-control" name="" id="" cols="30" rows="3"></textarea>
+                                                    </div>
+                                                </div> 
+                                           
+
+                                            </div>
+ 
+                                        </fieldset>
+
+                                         
+                                    </div>
                                     
                                 </div>
 
@@ -743,6 +818,7 @@
             $( ".radio2_2" ).hide();
             $( ".radio3_1" ).hide();
             $( ".radio3_2" ).hide();
+            $( ".radio3_3" ).hide();
 
             $( ".radio4_1" ).hide();
             $( ".radio4_2" ).hide();
@@ -843,10 +919,17 @@
             if (this.value == '1') {
                 $( ".radio3_1" ).show();
                 $( ".radio3_2" ).hide();
+                $( ".radio3_3" ).hide();
             }
-            else {
-                $( ".radio3_2" ).show();
+            else if (this.value == '2') {
                 $( ".radio3_1" ).hide();
+                $( ".radio3_2" ).show();
+                $( ".radio3_3" ).hide();
+            }
+            else if (this.value == '3') {
+                $( ".radio3_1" ).hide();
+                $( ".radio3_2" ).hide();
+                $( ".radio3_3" ).show();
             }
         });
 
